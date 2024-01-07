@@ -1,4 +1,8 @@
 /*shared style*/
+* {
+    margin: 0;
+}
+
 body {
     font-family: 'Libre Franklin', sans-serif;
 }
@@ -124,4 +128,27 @@ main {
 
 .about-info {
     text-align: center;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
+
+}
+
+.skills-cintainer {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.skill-title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.skill {
+    width: 267px;
+    height: 377px;
+    padding: 5px 5px 5px 10px;
+
 }
